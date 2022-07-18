@@ -1,5 +1,5 @@
 # If you remember that your pass contains exact patterns, but you don't remember the order or kind of the patterns
-pass_pos = ['qwerty', '123123', '123qwe]
+pass_pos = ['qwerty', '123123', '123qwe']
 # Another possible solution is to use baseN, for instance base62(abc,ABC,123 -> 26+26+10=62)
 
 from itertools import chain, combinations
